@@ -1,0 +1,38 @@
+body {
+        color: #614444; /* 614444; #666669;*/
+	border-color: #C0C0C0;
+	font-size: 10pt;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #eeeeee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #196f93;/*#1989AE;*/
+/*	color: #77AACC; */
+	font-family: Tahoma, Arial, sans, sans-serif;
+	font-weight: bolder;
+}
+
+h1, h2, h3{
+	font-weight: normal;
+}
+
+#footer {
+	font-size: smaller;
+	color: #848484;
+}
+
+#box{
+    font-size: 10pt;
+    text-align: left;
+}
+
+a, a:active {
+    color: #3db3d9;
+/*	color: #77AACC; */
+	text-decoration: underline;
+}
+
+a:hover, a:active:hover, a:visited:hover {
+	color: #FFA061;
+}

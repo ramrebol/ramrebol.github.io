@@ -1,0 +1,149 @@
+
+
+
+
+
+<div id="lbox">
+  <br><br>
+  <h3>Ramiro J. Rebolledo Cormack</h3>
+  <i>Ingeniero Civil Matem&aacute;tico</i> <br>
+  Universidad de Concepci&oacute;n
+</div>
+
+
+
+
+<div id="rbox">
+  <br><br>
+  <b>Postal address</b><br>
+  CI&sup2;MA - Cabina 4<br>
+  Universidad de Concepci&oacute;n <br>
+  Casilla 160-C, Concepci&oacute;n, Chile
+  <br><br>
+  <b>Telephone</b><br>
+  +56 41 266 1312
+  <br><br>
+  <b>Mail</b><br>
+  <i><font color=brown>rrebolledo [at] ing-mat.udec.cl</font></i>
+  <!-- <br><br><br> -->
+  <!-- <img align="center" src="IMG/ramrebol_.png" with="150" height="164" border=0> -->
+  <br><br>
+  <a href="http://cl.linkedin.com/in/ramrebol" style="text-decoration:none;" target="_blank"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="http://www.linkedin.com/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Ramiro Rebolledo's LinkedIn profile" style="vertical-align:middle" border="0">View Ramiro Rebolledo's profile</span></a>
+</div>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+ <img src="IMG/boring2.png" with="450" height="275" border=0>
+
+
+
+<br><br>
+<h4>Thesis:</h4>
+<b>Title</b>: <i>An augmented mixed approach for the coupling of quasi-Newtonian fluids with porous media flows.</i>
+<br>
+<b>Supervisors</b>: <a href="http://www.ci2ma.udec.cl/ggatica">Gabriel N. Gatica</a>, <a href="http://ciencias.ubiobio.cl/royarzua/">Ricardo Oyarz&uacute;a</a>.
+<br>
+Download: <a href="http://www.sciencedirect.com/science/article/pii/S0045782513003228">article</a>
+<!-- <a href="http://ci2ma.udec.cl/publicaciones/tesispregrado/egresado.php?id=20">thesis</a>,-->
+<!-- <a href="http://ci2ma.udec.cl/publicaciones/prepublicaciones/prepublicacion.php?id=128">preprint</a>. -->
+<br>
+Publication arising from this thesis: <i>Analysis of an augmented fully-mixed approach for the coupling of quasi-Newtonian fluids and porous media.</i> Computer Methods in Applied Mechanics and Engineering, vol. 270, 1, pp. 76-112, (2014),
+Gabriel N. GATICA, Antonio MARQUEZ, Ricardo OYARZUA, Ramiro REBOLLEDO.
+<br>
+<a href="" onclick="javascript:visibilite('abstract-en');return false;">Abstract</a>
+
+<div id="abstract-en" style="display:none;">
+    <!-- <p> -->
+    <!-- Estudio de un sistema de ecuaciones diferenciales no -->
+    <!-- lineales que modela el comportamiento de un flu&iacute;do -->
+    <!-- quasi-Newtoniano que est&aacute; en &Omega;<sub>S</sub> que entra y sale de un -->
+    <!-- medio poroso &Omega;<sub>D</sub> -->
+    <!-- a trav&eacute;s de una interfase com&uacute;n &Sigma;. -->
+    <!-- El medio poroso se considera saturado por el flu&iacute;do. -->
+    <!-- </p> -->
+
+    <!-- <center><img src="IMG/numeric.png" alt="resultado numerico"></center> -->
+
+    <!-- <p> -->
+    <!-- El flu&iacute;do en &Omega;<sub>S</sub> y -->
+    <!-- &Omega;<sub>D</sub> se rige por una clase de ecuaciones de Stokes no lineal y -->
+    <!-- Darcy lineal, respectivamente. -->
+    <!-- Las condiciones sobre &Sigma; est&aacute;n dadas por la -->
+    <!-- conservaci&oacute;n de masa, balance de fuerzas normales y la ley de -->
+    <!-- Beavers-Joseph-Saffman. -->
+    <!-- </p> -->
+
+
+    <!-- <p> -->
+    <!-- El estudio num&eacute;rico de este sistema se hace con elementos finitos -->
+    <!-- mixtos. -->
+    <!-- Para esto se introduce y estudia una generalizaci&oacute;n de la teoria -->
+    <!-- abstracta no lineal de Babu&#353;ka-Brezzi. -->
+    <!-- Luego se propone una formulaci&oacute;n variacional del problema acoplado -->
+    <!-- que al aumentarlo cumple con las hip&oacute;tesis del problema abstracto -->
+    <!-- introducido. -->
+    <!-- Esto permite probar que la formulaciones variacionales discreta y continua -->
+    <!-- propuestas est&aacute;n bien puestas y deducir el correspondiente error -->
+    <!-- a-priori. -->
+    <!-- </p> -->
+
+    <!-- <p> -->
+    <!-- Los subespacios de elementos finitos apropiados incluyen los -->
+    <!-- PEERS y Arnold-Falk-Winther para el esfuerzo, velocidad y vorticidad en -->
+    <!-- el flu&iacute;do, Raviart-Thomas y constantes a trozos en la velocidad y -->
+    <!-- presi&oacute;n, junto con constantes a trozos para el tensor de esfuerzos -->
+    <!-- y constantes a trozos continuos para las trazas. -->
+    <!-- </p> -->
+
+    <!-- <p> -->
+    <!-- Por &uacute;ltimo se presenta el estudio de error a-posteriori -->
+    <!-- y se muestran ejemplos num&eacute;ricos. -->
+    <!-- </p> -->
+    In this work we introduce and analyze an augmented mixed finite element method
+    for the coupling of quasi-Newtonian fluids and porous media. The flows are
+    governed by a class of nonlinear Stokes and linear Darcy equations,
+    respectively, and the transmission conditions are given by mass conservation,
+    balance of normal forces, and the Beavers-Joseph-Saffman law.  We apply
+    dual-mixed formulations in both domains, and, in order to handle the
+    nonlinearity involved in the Stokes region, we set the 
+    strain and vorticity tensors as auxiliary unknowns. 
+    In turn, since the transmission conditions become essential,
+    they are imposed weakly, which yields the introduction of the traces of the
+    porous media pressure and the fluid velocity as the associated Lagrange
+    multipliers. Moreover, in order to facilitate the analysis, we
+    augment the formulation in the fluid by incorporating a redundant Galerkin-type
+    term arising from the quasi-Newtonian constitutive law multiplied by a
+    suitable stabilization parameter. In this way, under a suitable and
+    explicit choice of this parameter, a ge\-neralization of the  Babuska-Brezzi theory
+    is utilized to show the well-posedness of the continuous and discrete
+    formulations and to derive the corresponding a-priori error estimate. In
+    particular, the feasible finite element subspaces include 
+    PEERS and Arnold-Falk-Winther elements for the stress, velocity and vorticity
+    in the fluid, Raviart-Thomas elements and piecewise constants for the
+    velo\-city  and pressure in the porous medium, together with piecewise constant
+    Stokes strain tensor and continuous piecewise linear elements for the traces.
+    Next, we employ classical approaches, which include linearization techniques,
+    Cl\'ement's interpolator and Helmholtz's  decomposition, together with known
+    efficiency estimates, to derive a reliable and efficient residual-based a
+    posteriori error estimator for the coupled problem. Finally, several
+    numerical results confirming the good performance of the method and the
+    properties of the a posteriori error estimator, and illustrating the
+    capability of the corresponding adaptive algorithm to identify the singular
+    regions of the solution, are reported.
+
+
+    <div class="right"><a href="" onclick="javascript:visibilite('id_div_1'); return false;">Close</a> &crarr;</div>
+ </div><!-- div abstract-en -->
+
+
+<br><br>
+<h4>Talks:</h4>
+XXVII Semana de la matem&aacute;tica,
+Pontificia Universidad Cat&oacute;lica de Valpara&iacute;so,
+Valpara&iacute;so, Chile;
+<br>
+Title: Numerical analysis of an augmented mixed formulation for the coupling of
+quasi-Newtonian fluids in porous media.

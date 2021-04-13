@@ -1,0 +1,87 @@
+body {
+	width: 720px;
+ 	margin: auto;
+/*	margin-left: 0px;*/
+/*	margin-right: 20px;
+*/
+/*	margin-left: auto;
+	margin-right: auto;
+*/
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+	background-color: #FFF;
+	background-image: url(images/background_content3.png);
+	background-repeat: repeat-y;
+	background-position: center;
+
+}
+
+
+#content {
+/*	float: left;*/
+/*	clear: right;*/
+	padding: 5px;
+	width: 720px;
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+/*	margin-left:20px;*/
+/*	margin: auto;*/
+/*	border-right-width: 1px;
+	border-right-style: solid; */
+}
+
+#content p {
+	text-indent: 2pc;
+	text-align: justify;
+	padding: 2px;
+	padding-right: 10px;
+}
+
+#content h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#lbox {
+    float: left;
+    clear: left;
+}
+
+#rbox {
+    float: right;
+    clear: right;
+    boder-style: solid;
+    border-width: 1px;
+}
+
+
+#box {
+    border-style: solid;
+    border-width: 1px;
+/*    float : right;   */
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#footer {
+	clear: both;
+	padding: 5px;
+	border-color: #F1F1F1;
+	border-top-width: 3px;
+	border-top-style: solid;
+	text-align: right;
+}
+
+#footer p {
+	margin: 0px;
+}
+
+a, a:active {
+	cursor: pointer;
+}
+
+ul {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
